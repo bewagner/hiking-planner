@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hiking-planner"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Wagner <bewagner@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+z3-solver = "^4.16.0.0"
+rich = "^14.3.3"
+ruff = "^0.15.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.3"
+pre-commit = "^4.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
