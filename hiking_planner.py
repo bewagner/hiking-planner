@@ -18,7 +18,7 @@ from z3 import (
 )
 
 
-HUTS_FILE = "forststeig.json"
+HUTS_FILE = "huts.json"
 NUMBER_OF_DAYS: int = 5  # days
 DAILY_TARGET_KM: int = 25  # km per day
 NUMBER_OF_PLANS_TO_SHOW: int = 3  # number of top plans to show when running the script
